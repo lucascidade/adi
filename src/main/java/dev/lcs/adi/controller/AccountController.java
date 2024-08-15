@@ -24,7 +24,7 @@ public class AccountController {
         accountService.asssociateStock(accountId, associateAccountDTO);
         return ResponseEntity.ok().build();
     }
-    
+
     @GetMapping("/{accountId}/stocks")
     public ResponseEntity<List<AccountStockResponseDTO>> listStocks(@PathVariable("accountId") String accountId) {
 
