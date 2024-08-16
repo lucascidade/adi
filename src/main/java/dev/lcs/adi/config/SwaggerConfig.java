@@ -28,8 +28,8 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("Agregador de Investimentos!")
                 .version("0.0.1")
-                .contact(new Contact("dev.lucascidade", "github.com/lucascidade","dev.lucascidade@hotmail.com")
-                )
-                .description("API agregador de investimentos").build();
+                .description("API agregador de investimentos")
+                .contact(new Contact("dev.lucascidade", "github.com/lucascidade","dev.lucascidade@hotmail.com"))
+                .build();
     }
 }
